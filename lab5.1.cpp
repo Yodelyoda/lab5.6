@@ -2,6 +2,10 @@
 #include <cmath>
 using namespace std;
 double h(const double a, const double b); // прототип
+int sum(int x, int y)
+{
+	return x + y;
+}
 int main()
 {
 	double s, t;
